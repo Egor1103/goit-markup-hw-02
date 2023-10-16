@@ -214,9 +214,10 @@ body {
 
 /**============== FOOTER ==============**/
 
-.footeres {
+footer {
   background: #2e2f42;
 }
+
 .footer-txt {
   color: #f4f4fd;
   font-family: Roboto;
