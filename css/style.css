@@ -14,7 +14,7 @@ body {
 /**============== LOGOTYPE ==============**/
 .logotype-f {
   color: #4d5ae5;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -53,6 +53,11 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.nav-links-head:hover,
+.nav-links-head:focus {
+  color: #404bbf;
 }
 /**ADRESS*/
 
@@ -121,6 +126,7 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  background-color: #ffffff;
 }
 
 .plan-texts {
@@ -240,7 +246,7 @@ body {
 
 .logotype-d-foot {
   color: #f4f4fd;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
