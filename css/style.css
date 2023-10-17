@@ -12,21 +12,22 @@ body {
 }
 
 /**============== LOGOTYPE ==============**/
-
 .logotype-f {
   color: #4d5ae5;
   font-family: Raleway;
   font-size: 18px;
+  font-style: normal;
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
-.logotype {
+.logotype-d-head {
   color: #2e2f42;
   font-family: Raleway;
   font-size: 18px;
+  font-style: normal;
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -88,12 +89,22 @@ body {
 
 .solutions-btn {
   color: #fff;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  background-color: #4d5ae5;
+  cursor: pointer;
+}
+
+.solutions-btn:hover {
+  background-color: #404bbf;
+}
+
+.solutions-btn:focus {
+  background-color: #404bbf;
 }
 
 /**============================**/
@@ -214,7 +225,7 @@ body {
 
 /**============== FOOTER ==============**/
 
-footer {
+.footer {
   background: #2e2f42;
 }
 
@@ -227,20 +238,11 @@ footer {
   letter-spacing: 0.02em;
 }
 
-.logotype-f-foot {
-  color: #4d5ae5;
-  font-family: Raleway;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
-
-.logotype-foot {
+.logotype-d-foot {
   color: #f4f4fd;
   font-family: Raleway;
   font-size: 18px;
+  font-style: normal;
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
